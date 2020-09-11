@@ -1,7 +1,7 @@
-import requests
+import requests 
 from random import choice
-from pyfiglet import figlet_format
-from termcolor import colored
+from pyfiglet import figlet_format #format output will show how line is written
+from termcolor import colored #colour uses
 
 header = figlet_format("DAD JOKE 3000!")
 header = colored(header, color ="magenta")
